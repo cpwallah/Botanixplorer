@@ -1,0 +1,179 @@
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.cs-message-input__tools:first-child .cs-button:last-child {
+    display: none;
+}
+
+.cs-chat-container .cs-message-input {
+    padding: 0.8rem 2rem !important;
+    width: 70%;
+    border: 0px !important;
+}
+
+.cs-message-list {
+    display: flex;
+    justify-content: center;
+    background: #F4F6E6 !important;
+}
+
+.cs-message-list__scroll-wrapper {
+    width: 70% !important;
+    padding-bottom: 40px !important;
+}
+
+.cs-main-container {
+    border: 0px !important;
+}
+
+.cs-main-container .cs-chat-container {
+    display: flex;
+    align-items: center;
+}
+
+.cs-message-input__content-editor {
+    background: #fff !important;
+}
+
+.cs-message-input__content-editor-wrapper {
+    color: #B5B5B5;
+    background: #fff !important;
+    border-radius: 10px !important;
+    border: 1px solid #C5C5C5 !important;
+}
+
+.cs-message__content {
+    background: #e6e6e6 !important;
+}
+
+.scrollbar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+}
+
+.current-time {
+    color: #808080;
+    /* Footer/Regular */
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 145.455% */
+    letter-spacing: 0.44px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sender {
+    color: #333;
+    /* Caption/Caps */
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 123.077% */
+    letter-spacing: 0.78px;
+    text-transform: uppercase;
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.bot img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* card getting started */
+
+.card-heading {
+    color: #1B1B1B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.getting-started-content {
+    color: #1B1B1B;
+    /* Body/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-inner-flex {
+    border-radius: 8px;
+    background: var(--White, #FFF);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-inner-flex img {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,66 @@
+/* Navbar.css */
+.navbar {
+    background: #F4F6E6;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+.navbar-container {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.menu-icon.active {
+    display: block;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-icon {
+    display: block;
+    color: #87986A;
+    font-size: 24px;
+    cursor: pointer;
+    right: 20px;
+    position: absolute;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    right: -100%;
+    background-color: #333;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+    padding: 20px 10px;
+    gap: 20px;
+    z-index: 999;
+}
+
+.nav-menu.active {
+    right: 0;
+}

@@ -1,0 +1,61 @@
+.middle {
+    text-align: center;
+    padding-top: 5rem;
+    background: #e9f5db;
+    font-family: 'Gloock', serif;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.middle-desc {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    font-weight: 200;
+    font-family: 'Libre Baskerville';
+
+    font-size: 1.2rem;
+
+}
+
+.image {
+    background: #87986A;
+    height: 3rem;
+    width: 10rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-family: 'Libre Baskerville';
+}
+
+.input-image {
+    display: none;
+}
+
+.Lower {
+    padding-top: 8rem;
+    padding: 8rem 5rem 0 5rem;
+    text-align: left;
+    background: #e9f5db;
+    font-size: 2rem;
+}
+
+
+.img {
+    display: flex;
+    padding-top: 4rem;
+    font-size: small;
+    font-weight: 100;
+    text-align: center;
+    gap: 8rem;
+}
+
+.img-leaf {
+    height: 20rem;
+}
+
+.leaf-desc {
+    font-family: 'Libre Baskerville';
+    width: 44rem;
+    text-align: justify;
+    font-weight: 200;
+}

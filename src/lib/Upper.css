@@ -1,0 +1,40 @@
+.upper{
+    /* box-sizing: border-box; */
+    background: #87986A;
+    height: 20rem;
+    display: flex;
+    flex:1;
+    padding: 2rem 2rem;
+    align-items:flex-start;
+    
+}
+.nature{
+    font-size: 3.5rem;
+    font-family: 'Gloock', serif;
+    /* text-align: center; */
+    width:104rem;
+    padding-left: 7rem ;
+    padding-top: 5rem;
+    
+
+
+}
+
+.nature-descript{
+    /* padding: 3rem; */
+    margin-left: 5rem;
+   
+    
+    color: white;
+    /* padding-left: 15rem; */
+    padding-right: 10rem ;
+    padding-top: 5rem;
+    
+    font-size: 1.5rem; 
+    font-family:'Libre Baskerville';
+    font-weight: 200;
+    text-align:justify;
+    
+
+
+}

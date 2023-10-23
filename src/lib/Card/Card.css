@@ -1,0 +1,14 @@
+.card-conatiner {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #718355;
+    background: rgba(135, 152, 106, 0.50);
+    width: -webkit-fill-available;
+    height: max-content;
+    margin: 10px 0;
+}
